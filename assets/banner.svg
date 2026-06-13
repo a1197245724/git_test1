@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc8cff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bc8cff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f778ba;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="700" cy="40" r="60" fill="#58a6ff" opacity="0.05"/>
+  <circle cx="750" cy="150" r="80" fill="#bc8cff" opacity="0.05"/>
+  <circle cx="100" cy="160" r="40" fill="#f778ba" opacity="0.05"/>
+  
+  <!-- Accent line -->
+  <rect x="50" y="90" width="60" height="3" fill="url(#accent)" rx="2"/>
+  
+  <!-- Git icon (simplified) -->
+  <g transform="translate(620, 50)">
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.3"/>
+    <circle cx="40" cy="20" r="6" fill="#58a6ff" opacity="0.8"/>
+    <circle cx="25" cy="55" r="6" fill="#bc8cff" opacity="0.8"/>
+    <circle cx="55" cy="55" r="6" fill="#f778ba" opacity="0.8"/>
+    <line x1="40" y1="26" x2="28" y2="49" stroke="#58a6ff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="40" y1="26" x2="52" y2="49" stroke="#bc8cff" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="60" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e" font-weight="400">Welcome to</text>
+  <text x="60" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="42" fill="url(#text-grad)" font-weight="700">git_test1</text>
+  <text x="60" y="155" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8b949e" font-weight="300">A modern Git repository template</text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(60, 170)">
+    <rect x="0" y="0" width="50" height="20" fill="#238636" rx="10" opacity="0.8"/>
+    <text x="25" y="14" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="600">Git</text>
+    
+    <rect x="60" y="0" width="70" height="20" fill="#1f6feb" rx="10" opacity="0.8"/>
+    <text x="95" y="14" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="600">GitHub</text>
+    
+    <rect x="140" y="0" width="50" height="20" fill="#8957e5" rx="10" opacity="0.8"/>
+    <text x="165" y="14" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="600">Open</text>
+  </g>
+</svg>
