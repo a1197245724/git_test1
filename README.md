@@ -15,6 +15,8 @@
 
 这是一个 Git 学习与实践仓库，用于记录和探索 Git/GitHub 的各种功能与最佳实践。
 
+同时也作为个人工作区的归档仓库，记录日常开发中的工具、脚本和项目。
+
 <details>
 <summary>🎯 点击展开项目目标</summary>
 
@@ -59,6 +61,28 @@ git_test1/
 ├── .gitignore           # Git 忽略规则
 └── README.md            # 项目说明文档
 ```
+
+## 📦 归档内容（工作区）
+
+以下为本地工作区（OpenClaw workspace）的主要项目，已归档至本仓库：
+
+| 项目 | 说明 | 技术栈 |
+|:---:|:---:|:---:|
+| **迅维课堂下载器** | 抓取加密视频，解密转 MP4 | Python 3.12 + tkinter + Puppeteer |
+| **B站视频抓取** | Bilibili 视频下载工具 | Node.js + yt-dlp |
+| **坦克大战** | HTML5 小游戏 | HTML + CSS + JS |
+| **OpenClaw 配置** | AI 助手配置与记忆系统 | Markdown |
+
+## 📝 更新日志
+
+### 2026-06-13
+- ✅ 初始化本地 Git 仓库
+- ✅ 连接远程仓库 `github.com/a1197245724/git_test1.git`
+- ✅ 配置 Git 代理（`127.0.0.1:7897`）
+- ✅ 创建 `.gitignore`（覆盖 Node.js/Python/OS/IDE 等）
+- ✅ 编写精美 README.md + SVG banner 配图
+- ✅ 工作区全量归档（60 个文件，含迅维下载器、B站抓取等）
+- ✅ B站视频下载：《普通人怎么用好Git和GitHub》
 
 ## 🛠️ Git 常用命令速查
 
